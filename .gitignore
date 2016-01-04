@@ -1,0 +1,11 @@
+.venv
+.#*
+.DS_Store
+*.pyc
+local_settings.py
+cache.sqlite
+site
+db.sqlite3
+.dir-locals.el
+environ.env
+environ.sh

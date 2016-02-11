@@ -85,8 +85,9 @@ else:
     WebServicesKey = os.environ['WEBSERVICESKEY']
 
     import tdapi
-    TD_CONNECTION = tdapi.TDConnection(BEID=BEID,
-                                     WebServicesKey=WebServicesKey)
+    TD_CONNECTION = tdapi.set_connection(
+        tdapi.TDConnection(BEID=BEID,
+                           WebServicesKey=WebServicesKey))
 
 
     TD_CLIENT_URL = os.environ['TD_CLIENT_URL']

@@ -6,7 +6,7 @@ to TeamDynamix.
 # Dependencies
 
 The API portion of this code has now been moved to
-(borwick/tdapi)[https://github.com/borwick/tdapi].
+[borwick/tdapi](https://github.com/borwick/tdapi).
 
 # Folders within this project
 

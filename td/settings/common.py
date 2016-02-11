@@ -84,8 +84,8 @@ else:
     BEID = os.environ['BEID']
     WebServicesKey = os.environ['WEBSERVICESKEY']
 
-    import api
-    TD_CONNECTION = api.TDConnection(BEID=BEID,
+    import tdapi
+    TD_CONNECTION = tdapi.TDConnection(BEID=BEID,
                                      WebServicesKey=WebServicesKey)
 
 
